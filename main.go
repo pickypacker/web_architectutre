@@ -14,7 +14,9 @@ func main() {
 }
 
 // PrintFirst print the Person structure First value
-func PrintFirst(p Person) {
+func PrintFirst(p Person) string {
 
 	println(p.First)
+
+	return p.First
 }

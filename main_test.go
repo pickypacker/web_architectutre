@@ -1,6 +1,9 @@
 package main
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestMainPrintFirst(t *testing.T) {
 
@@ -13,6 +16,7 @@ func ExamplePrintFirst() {
 
 	p := Person{First: "Paul"}
 
-	PrintFirst(p)
-	// Out: Paul
+	got := PrintFirst(p)
+	fmt.Printf("%s", got)
+	// Output: Paul
 }
