@@ -8,6 +8,11 @@ func main() {
 
 	p := Person{First: "Amie"}
 
-	println(p.First)
+	PrintFirst(p)
 
+}
+
+func PrintFirst(p Person) {
+
+	println(p.First)
 }
