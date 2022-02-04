@@ -1,5 +1,6 @@
 package main
 
+// Person data structure
 type Person struct {
 	First string
 }
@@ -12,6 +13,7 @@ func main() {
 
 }
 
+// PrintFirst print the Person structure First value
 func PrintFirst(p Person) {
 
 	println(p.First)
